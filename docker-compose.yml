@@ -3,7 +3,6 @@ version: '3.2'
 services:
 
   frontend:
-    env_file: .env
     build: frontend
     ports:
       - "20080:80"
@@ -14,7 +13,6 @@ services:
       - ./:/app
 
   backend:
-    env_file: .env
     build: backend
     ports:
       - "21080:80"
