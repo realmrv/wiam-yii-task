@@ -1,6 +1,18 @@
 # Wiam Yii2 test task
 
-# Installation
+## Requirements
+
+- Docker
+- Docker Compose
+
+## Installation
+
+### Auto
+
+1. `chmod 775 deploy.sh`
+2. `./deploy.sh`
+
+### Manual
 
 Yii2 docs [link](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-docker) for detail
 
